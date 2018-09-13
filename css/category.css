@@ -13,12 +13,47 @@ html,body{
 	width: 100%;
 }
 .c-left{
+	width: 80px;
 	float: left;
-	background-color: red;
+	background-color: #fff;
 	height: 100%;
+	position: relative;
+}
+.c-left .links a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
 }
 .c-right{
-	margin-left: 60px;
-	background-color: #000080;
+	margin-left: 90px;
+	/*background-color: #000080;*/
 	height: 100%;
+	padding: 0 5px;
+	position: relative;
+}
+.c-right ul{
+	
+}
+.c-right .brandLists{
+	background-color: #fff;
+	margin-top: 10px;
+}
+.c-right .brandLists li{
+	width: 33.33%;
+	float: left;
+}
+.c-right .brandLists li a{
+	width: 100%;
+	display: block;
+}
+
+.c-right .brandLists li a img{
+	width: 100%;
+}
+.c-right .brandLists li p{
+	text-align: center;
 }
